@@ -61,6 +61,15 @@ export default function HomePage() {
           </p>
         </Link>
       </div>
+
+      <div className="card bg-blue-50 border-blue-200">
+        <h3 className="text-lg font-semibold mb-3 text-blue-800">💡 시작하기</h3>
+        <div className="text-sm text-gray-700 space-y-2">
+          <p>1. <strong>기본 RSC</strong>부터 시작하여 Server Component와 Client Component의 차이를 이해하세요.</p>
+          <p>2. 각 예제의 소스 코드를 확인하여 구현 방법을 학습하세요.</p>
+          <p>3. 브라우저 개발자 도구의 Network 탭에서 서버 렌더링을 확인해보세요.</p>
+        </div>
+      </div>
     </div>
   )
 }
